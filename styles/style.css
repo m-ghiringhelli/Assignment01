@@ -78,6 +78,9 @@ h2 {
 
 .fact {
     margin-left: 100px;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 0px 25px;
 }
 
 #fun-fact {
