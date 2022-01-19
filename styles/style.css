@@ -30,12 +30,18 @@ body {
     background-color: var(--color2);
 }
 
+* {
+    font-family: 'Outfit', sans-serif;
+}
+
 main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-bottom: calc(var(--footer-height));
+    font-weight: 211;
+    font-size: 1.2rem;
 }
 
 section {
@@ -58,6 +64,10 @@ header {
     background-color: var(--color3);
     height: var(--header-height);
     box-shadow: var(--shadow);
+}
+
+h1 {
+    font-size: 3rem;
 }
 
 h2 {
