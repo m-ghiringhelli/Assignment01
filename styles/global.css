@@ -13,21 +13,21 @@
 
 body {
     /* style */
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Outfit', sans-serif;
     background-color: var(--primary-background);
     color: var(--text-color);
+    font-weight: 211;
 
-    /* layout */
+    /* layout 
     display: grid;
     grid-template-rows: 80px 1fr auto;
+    */
 
 }
 
-
-
 header {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     background-color: var(--chrome-background);
     box-shadow: 0px 10px 20px -12px rgba(0,0,0,0.45);
     padding: 0 var(--gutter);
@@ -36,7 +36,6 @@ header {
 main {
     overflow-y: auto;
 }
-
 
 footer {
     background-color: var(--chrome-background-opaque);
