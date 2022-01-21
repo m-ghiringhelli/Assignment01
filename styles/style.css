@@ -36,9 +36,12 @@ main {
     justify-content: center;
     align-items: center;
     margin-bottom: calc(var(--footer-height));
+    font-weight: 211;
+    font-size: 1.2rem;
+    margin-top: 50px;
 }
 
-section {
+/* section {
     background-color: var(--color5);
     max-width: 80%;
     display: flex;
@@ -50,6 +53,10 @@ section {
     margin-top: var(--gutter);
     margin-bottom: var(--gutter);
     border: solid 2px var(--color1);
+} */
+
+.animals {
+    margin-left: 50px;
 }
 
 header {
@@ -60,9 +67,24 @@ header {
     box-shadow: var(--shadow);
 }
 
+h1 {
+    font-size: 3rem;
+}
+
 h2 {
     font-size: 1.8rem;
     font-weight: bold;
+}
+
+.fact {
+    margin-left: 100px;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 0px 25px;
+}
+
+#fun-fact {
+    font-style: italic;
 }
 
 .gutter-right {
@@ -85,4 +107,12 @@ footer {
     justify-content: flex-end;
     background-color: var(--color3);
     box-shadow: var(--shadow);
+}
+
+* {
+    font-family: 'Outfit', sans-serif;
+}
+
+strong {
+    font-weight: 900;
 }
